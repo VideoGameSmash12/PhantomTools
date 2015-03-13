@@ -1,0 +1,19 @@
+name: PhantomTools
+main: com.phantomoediv215.phantomtools.PhantomTools
+version: 0.1
+description: The return of the VideoCraftPlugin, now remastered! Includes some joke commands.
+author: PhantomOediv215
+commands:
+    dialup:
+        usage: /<command>
+        description: Joke command number 1.
+    
+    helpinfo:
+        usage: /<command>
+        description: Originally made from the VCP.
+        
+    ptp:
+        usage: /<command>
+        description: I really was trying to become a pony :(
+        
+    
