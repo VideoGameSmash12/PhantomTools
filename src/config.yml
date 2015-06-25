@@ -8,13 +8,13 @@ plugin-name: PhantomTools
 ## When modifying this plugin, you might consider changing the name of this plugin 
 ## so you don't cause any confusion. Hehe, :3
 
-plugin-version: Alpha 0.1
+plugin-version: Alpha 0.2
 ## I specifically know that this was made from scratch. If you are contributing 
 ## to this plugin, you better change this or you will cause confusion.
 ## Plus, this is only usable for developers of the plugin. Modifying this for your
 ## own plugin will violate the licence altogether. 
 
-developers: PhantomOediv215
+developers: 'PhantomOediv215, cowgomooo12'
 ## Go ahead and modify this, I don't care. Just make sure to keep my name in it.
 ## Multiple developers example: 'PhantomOediv215, developer532'
 

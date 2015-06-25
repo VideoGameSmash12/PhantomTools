@@ -1,6 +1,6 @@
 name: PhantomTools
 main: com.phantomoediv215.phantomtools.PhantomTools
-version: 0.1
+version: 0.2
 description: The return of the VideoCraftPlugin, now remastered! Includes some joke commands.
 author: PhantomOediv215
 commands:
@@ -8,12 +8,11 @@ commands:
         usage: /<command>
         description: Joke command number 1.
     
-    helpinfo:
+    notchtroll:
         usage: /<command>
-        description: Originally made from the VCP.
-        
-    ptp:
-        usage: /<command>
-        description: I really was trying to become a pony :(
-        
+        description: This command is useless, but I just added it just for the heck of it. On the VideoFreedom server, this is blocked to only Super Admins.
+    
+    rocket:
+        usage: /rocket
+        description: Get a rocket and shoot things!
     
