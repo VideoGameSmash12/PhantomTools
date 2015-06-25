@@ -5,11 +5,14 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandSender;
 
-public class Command_helpinfo extends BukkitCommand {   
+
+public class Command_notchtroll extends BukkitCommand {   
 
     @Override
     public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-        sender.sendMessage(ChatColor.GREEN + "This command actually serves a little purpose, you can ask for help from the admins or other players though.");
+        server.broadcastMessage(ChatColor.YELLOW + "Notch joined the game.");
+        server.broadcastMessage("<Notch> Oops, wrong server.");
+        server.broadcastMessage(ChatColor.YELLOW + "Notch left the game.");
        
         return true;
     

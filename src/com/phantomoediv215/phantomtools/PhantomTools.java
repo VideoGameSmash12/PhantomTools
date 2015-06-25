@@ -1,6 +1,6 @@
 package com.phantomoediv215.phantomtools;
 
-import com.phantomoediv215.phantomtools.commands.Command_ptp;
+import com.phantomoediv215.phantomtools.commands.Command_notchtroll;
 import net.pravian.bukkitlib.BukkitLib;
 import net.pravian.bukkitlib.command.BukkitCommandHandler;
 import net.pravian.bukkitlib.config.YamlConfig;
@@ -28,10 +28,9 @@ public class PhantomTools extends BukkitPlugin {
         config = new YamlConfig(plugin, "config.yml");
         config.load();
         
-        handler.setCommandLocation(Command_ptp.class.getPackage());
+        handler.setCommandLocation(Command_notchtroll.class.getPackage());
         
         LoggerUtils.info(plugin, config.getString("server-name") + " v" + plugin.getVersion() + " has been enabled.");
-        LoggerUtils.info(plugin, "WARNING: This plugin is still in development, expect some glitches.");
     }
     @Override
     public void onDisable() {
