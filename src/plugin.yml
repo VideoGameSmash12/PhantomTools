@@ -1,18 +1,26 @@
 name: PhantomTools
 main: com.phantomoediv215.phantomtools.PhantomTools
-version: 0.2
-description: The return of the VideoCraftPlugin, now remastered! Includes some joke commands.
-author: PhantomOediv215
+version: 0.2.1
+description: Recreation of the VideoCraftPlugin.
+authors: [VideoGameSmash12, cowgomooo12]
 commands:
     dialup:
-        usage: /<command>
-        description: Joke command number 1.
+        usage: /dialup
+        description: A reference to an online service that many people used to use.
     
     notchtroll:
-        usage: /<command>
-        description: This command is useless, but I just added it just for the heck of it. On the VideoFreedom server, this is blocked to only Super Admins.
+        usage: /notchtroll
+        description: In PhantomToolsPlus (a modified version of PhantomTools), this was one of the few commands that it featured.
     
     rocket:
         usage: /rocket
-        description: Get a rocket and shoot things!
+        description: Rockets don't exist.
+        
+    colors:
+        usage: /colors
+        description: Lists all of the colors possible in Minecraft.
+        aliases: colours
     
+    phantomtools:
+        usage: /phantomtools
+        description: Provides some details about PhantomTools. Still under construction.

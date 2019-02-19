@@ -1,6 +1,6 @@
 package com.phantomoediv215.phantomtools;
 
-import com.phantomoediv215.phantomtools.commands.Command_notchtroll;
+import com.phantomoediv215.phantomtools.commands.Command_phantomtools;
 import net.pravian.bukkitlib.BukkitLib;
 import net.pravian.bukkitlib.command.BukkitCommandHandler;
 import net.pravian.bukkitlib.config.YamlConfig;
@@ -19,7 +19,6 @@ public class PhantomTools extends BukkitPlugin {
     public void onLoad() {
         this.plugin = this;
         this.handler = new BukkitCommandHandler(plugin);
-
     }
     
     @Override
@@ -27,20 +26,16 @@ public class PhantomTools extends BukkitPlugin {
         BukkitLib.init(plugin);
         config = new YamlConfig(plugin, "config.yml");
         config.load();
-        
-        handler.setCommandLocation(Command_notchtroll.class.getPackage());
-        
-        LoggerUtils.info(plugin, config.getString("server-name") + " v" + plugin.getVersion() + " has been enabled.");
+        handler.setCommandLocation(Command_phantomtools.class.getPackage());
+        LoggerUtils.info(plugin, "PhantomTools for " + config.getString("server-name") + " (v" + plugin.getVersion() + ") has been enabled.");
     }
     @Override
     public void onDisable() {
-        LoggerUtils.info(plugin, config.getString("server-name") + " has been disabled.");
-        LoggerUtils.info(plugin, "INFO: The PhantomTools plugin has been disabled, possibly due to a restart or reload.");
+        LoggerUtils.info(plugin, "PhantomTools for " + config.getString("server-name") + " (v" + plugin.getVersion() + ") has been disabled.");
     
     }
     @Override
     public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         return handler.handleCommand(sender, cmd, commandLabel, args);
     }
-
 }

@@ -10,10 +10,10 @@ public class Command_phantomtools extends BukkitCommand {
     @Override
     public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args) {
         {
-            sender.sendMessage(ChatColor.DARK_GREEN + "PhantomTools:");
-            sender.sendMessage(ChatColor.GREEN + "Contributors: " + ChatColor.AQUA + "cowgomooo12, TheSuspense76");
-            sender.sendMessage(ChatColor.GREEN + "Version: " + ChatColor.AQUA + "0.2"); 
+            sender.sendMessage(ChatColor.YELLOW + "- = [ " + ChatColor.GOLD + "PhantomTools" + ChatColor.YELLOW + " ] = -");
+            sender.sendMessage(ChatColor.GOLD + "Running on " + ChatColor.YELLOW + plugin.getConfig().getString("server-name") + "."); 
+            sender.sendMessage(ChatColor.GOLD + "Version: " + ChatColor.YELLOW + plugin.getConfig().getString("plugin-information.version")); 
         }
-        return false;
+        return true;
     }
 }
