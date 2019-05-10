@@ -1,7 +1,7 @@
 name: PhantomTools
 main: com.phantomoediv215.phantomtools.PhantomTools
-version: 0.2.1
-description: Recreation of the VideoCraftPlugin.
+version: 0.2.2
+description: A recreation of the VideoCraftPlugin that I started working on when I was 11.
 authors: [VideoGameSmash12, cowgomooo12]
 commands:
     dialup:
@@ -11,10 +11,6 @@ commands:
     notchtroll:
         usage: /notchtroll
         description: In PhantomToolsPlus (a modified version of PhantomTools), this was one of the few commands that it featured.
-    
-    rocket:
-        usage: /rocket
-        description: Rockets don't exist.
         
     colors:
         usage: /colors
