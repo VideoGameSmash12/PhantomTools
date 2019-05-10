@@ -14,11 +14,10 @@ server-name: VideoFreedom
 enabled_commands:
     - dialup
     - notchtroll
-    - rocket
     - phantomtools
 
 plugin-information:
     name: PhantomTools
-    version: v0.2.1
-    developers: 'PhandomOediv215, cowgomooo12'
+    version: v0.2.2
+    developers: 'VideoGameSmash12, cowgomooo12'
     based: BukkitLib
