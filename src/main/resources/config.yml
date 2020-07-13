@@ -1,0 +1,6 @@
+# PhantomTools v1.0 Configuration
+
+messages:
+    plugin:
+        enabled: "PhantomTools has been enabled."
+        disabled: "PhantomTools has been disabled."

@@ -1,0 +1,5 @@
+name: PhantomTools
+main: videogamesm12.phantomtools.PhantomTools
+version: ${project.version}
+description: A recreation of the VideoCraftPlugin that I started working on when I was 11.
+author: VideoGameSmash12
