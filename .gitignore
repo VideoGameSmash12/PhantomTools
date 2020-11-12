@@ -1,0 +1,10 @@
+# Intellij
+.idea/
+PhantomTools.iml
+
+# NetBeans
+nbproject/
+manifest.mf
+
+# Binaries
+target/

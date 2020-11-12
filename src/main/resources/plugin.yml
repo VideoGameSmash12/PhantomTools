@@ -1,6 +1,6 @@
 name: PhantomTools
-main: com.phantomoediv215.phantomtools.PhantomTools
-version: 0.2.2
+main: videogamesm12.phantomtools.PhantomTools
+version: ${project.version}
 description: A recreation of the VideoCraftPlugin that I started working on when I was 11.
 authors: [VideoGameSmash12, cowgomooo12]
 commands:

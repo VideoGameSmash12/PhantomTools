@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2019, Video
+ * Copyright (c) 2020 VideoGameSmash12
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -23,27 +23,30 @@
  * ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
  * POSSIBILITY OF SUCH DAMAGE.
  */
-package com.phantomoediv215.phantomtools.commands;
+package videogamesm12.phantomtools.commands;
 
-import net.pravian.bukkitlib.command.BukkitCommand;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
+import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
-public class Command_colors extends BukkitCommand {
-
+/**
+ * @author Video
+ */
+public class Command_colors implements CommandExecutor
+{
     @Override
-    public boolean run(CommandSender sender, Command cmd, String commandLabel, String[] args) {
-        
+    public boolean onCommand(CommandSender sender, Command cmd, String commandLabel, String[] args)
+    {
         // First, the Chat Colors using letters //
-        sender.sendMessage(ChatColor.GOLD + "PhantomTools v0.2.1 - Color List:");
+        sender.sendMessage(ChatColor.GOLD + "Color List:");
         sender.sendMessage(ChatColor.GREEN + "Light Green - &a");
         sender.sendMessage(ChatColor.AQUA + "Light Aqua - &b");
         sender.sendMessage(ChatColor.RED + "Light Red - &c");
         sender.sendMessage(ChatColor.LIGHT_PURPLE + "Pink - &d");
         sender.sendMessage(ChatColor.YELLOW + "Yellow - &e");
         sender.sendMessage(ChatColor.WHITE + "White - &f");
-        
+
         sender.sendMessage(ChatColor.GOLD + "--");
         
         // Then, the Chat Colors using numbers //
